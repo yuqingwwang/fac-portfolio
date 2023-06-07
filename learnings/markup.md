@@ -5,6 +5,7 @@ For the [Monster Inc](https://github.com/fac28/monster-inc) Project, we made use
   
 We did use the non-semantic \<div> tag with a class or id attribute quite often, which harmed the readability and accessibility of our codes. In the future, we should change them into more descriptive tags such as \<section> and \<article>. 
 
+<!-- 
 ## 2. Ensure a web page is readable for screen readers
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
@@ -23,4 +24,4 @@ We did use the non-semantic \<div> tag with a class or id attribute quite often,
 
 ## 10. Ensure our Git commit history tells a coherent story
 
-## 11. Use the appropriate input types in HTML forms for gathering different types of information
+## 11. Use the appropriate input types in HTML forms for gathering different types of information -->
