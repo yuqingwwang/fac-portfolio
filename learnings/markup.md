@@ -5,9 +5,10 @@ For the [Monster Inc](https://github.com/fac28/monster-inc) Project, we made use
   
 We did use the non-semantic \<div> tag with a class or id attribute quite often, which harmed the readability and accessibility of our codes. In the future, we should change them into more descriptive tags such as \<section> and \<article>. 
 
-<!-- 
 ## 2. Ensure a web page is readable for screen readers
+We tested our web page on Mac's VoiceOver to make sure all elements are readbale and descriptive.
 
+<!-- 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
 ## 4. Use various tools to check that our website meets accessibility criteria
