@@ -8,9 +8,12 @@ We did use the non-semantic \<div> tag with a class or id attribute quite often,
 ## 2. Ensure a web page is readable for screen readers
 We tested our web page on Mac's VoiceOver to make sure all elements are readbale and descriptive.
 
-<!-- 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
+Here is the [colour pallette](https://coolors.co/ebebe9-ca4335-030305-c9c9c8-ea150e) we created for our webpage.
 
+We used colours with sufficient contrasts, such as black texts on a white background to increase the readability of our page.
+
+<!-- 
 ## 4. Use various tools to check that our website meets accessibility criteria
 
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
