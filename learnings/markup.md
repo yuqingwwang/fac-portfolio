@@ -13,9 +13,10 @@ Here is the [colour pallette](https://coolors.co/ebebe9-ca4335-030305-c9c9c8-ea1
 
 We used colours with sufficient contrasts, such as black texts on a white background to increase the readability of our page.
 
-<!-- 
 ## 4. Use various tools to check that our website meets accessibility criteria
+The tool we used was [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools
 
+<!-- 
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 
 ## 6. Demonstrate a mobile-first approach to building a website
