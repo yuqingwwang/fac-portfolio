@@ -16,11 +16,40 @@ We used colours with sufficient contrasts, such as black texts on a white backgr
 ## 4. Use various tools to check that our website meets accessibility criteria
 The tool we used was [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) in Chrome DevTools
 
-<!-- 
+
 ## 5. Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
+We used media queries for three scenarios: small(max-width: 800px), medium (min-width: 800px) and large (min-width: 1200px) screens. 
 
 ## 6. Demonstrate a mobile-first approach to building a website
+Here is a snippet of how we made sure all content is displayed properly on mobile screens, by updating the font sizes and column numbers.
 
+```
+@media  screen and (min-width: 800px) {
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .banner-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .description-box p {
+    margin: 1rem;
+  }
+
+  .banner p {
+    font-size: 2rem;
+  }
+
+  .margin-top-lg {
+    margin-top: 5rem;
+  }
+
+}
+```
+
+<!-- 
 ## 7. Use CSS variables to apply repeated colours to HTML elements
 
 ## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
