@@ -49,9 +49,11 @@ Here is a snippet of how we made sure all content is displayed properly on mobil
 }
 ```
 
-<!-- 
 ## 7. Use CSS variables to apply repeated colours to HTML elements
 
+This is an area for improvement. While we did created a [colour palette](https://coolors.co/ebebe9-ca4335-030305-c9c9c8-ea150e), we did not use CSS variables to apply repeated colours in this project.
+
+<!-- 
 ## 8. Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
 
 ## 9. Use CSS Grid to style children in two-direction layout
