@@ -22,13 +22,9 @@ async () => {
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-See above :)
-
 We mainly focused on fetching departure information from TfL's API. From there, we selected the features we're interested in and formatted them before displaying the results. 
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
-
-No POST request was made
 
 ## 6. Use the map array method to create a new array containing new values
 
