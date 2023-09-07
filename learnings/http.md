@@ -70,14 +70,15 @@ function handleSearch() {
 }
 ```
 
-A good example is the populateTable function:
-
 ## 8, 9, & 10. Access DOM nodes using a variety of selectors <br> Add and remove DOM nodes to change the content on the page <br> Toggle the classes applied to DOM nodes to change their CSS properties
-The function uses selectors like inboundTable, outboundTable, tableHead, and tableBody to access and manipulate DOM nodes in the HTML document. It uses querySelector and querySelectorAll to find specific elements in the DOM.
 
-The function adds and removes DOM nodes as needed to populate the table with new data. It clears the existing table contents using the clearTable function and then creates and appends new table rows (<tr>) and cells (<td>) based on the data in the array.
+A good example is the [populateTable](https://github.com/fac28/trainspotting-api/blob/develop/js/utils/populateTable.js) function:
 
-While the primary purpose of this function is to populate tables, it also applies CSS properties conditionally. For example, it adds the hide-on-small-screen class to certain cells to hide them on smaller screens. This demonstrates the ability to toggle CSS classes to change the appearance of DOM nodes based on specific conditions.
+- The function uses selectors like inboundTable, outboundTable, tableHead, and tableBody to access and manipulate DOM nodes in the HTML document. It uses querySelector and querySelectorAll to find specific elements in the DOM.
+
+- It adds and removes DOM nodes as needed to populate the table with new data. It clears the existing table contents using the clearTable function and then creates and appends new table rows (<tr>) and cells (<td>) based on the data in the array.
+
+- While the primary purpose of this function is to populate tables, it also applies CSS properties conditionally. For example, it adds the hide-on-small-screen class to certain cells to hide them on smaller screens. This demonstrates the ability to toggle CSS classes to change the appearance of DOM nodes based on specific conditions.
 
 ## 11. Use consistent layout and spacing
 
